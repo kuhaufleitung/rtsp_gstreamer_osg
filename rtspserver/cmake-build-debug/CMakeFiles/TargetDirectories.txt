@@ -1,0 +1,3 @@
+/home/fabian/CLionProjects/rtspserver/cmake-build-debug/CMakeFiles/rtspserver.dir
+/home/fabian/CLionProjects/rtspserver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fabian/CLionProjects/rtspserver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
