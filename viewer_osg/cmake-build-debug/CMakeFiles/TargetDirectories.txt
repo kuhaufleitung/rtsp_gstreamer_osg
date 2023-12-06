@@ -1,0 +1,3 @@
+/home/fabian/CLionProjects/viewer_osg/cmake-build-debug/CMakeFiles/viewer_osg.dir
+/home/fabian/CLionProjects/viewer_osg/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fabian/CLionProjects/viewer_osg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
