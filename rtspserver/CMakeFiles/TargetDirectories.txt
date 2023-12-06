@@ -1,3 +1,0 @@
-/home/fabian/CLionProjects/rtsp_gstreamer_osg/rtspserver/CMakeFiles/rtspserver.dir
-/home/fabian/CLionProjects/rtsp_gstreamer_osg/rtspserver/CMakeFiles/edit_cache.dir
-/home/fabian/CLionProjects/rtsp_gstreamer_osg/rtspserver/CMakeFiles/rebuild_cache.dir
