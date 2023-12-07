@@ -1,17 +1,17 @@
 cmake_minimum_required(VERSION 3.27)
-project(viewer_osg)
+project(osg_movie)
 
 set(CMAKE_CXX_STANDARD 23)
 
 find_package(OpenSceneGraph REQUIRED COMPONENTS osgDB osgGA osgViewer)
 
-add_executable(viewer_osg main.cpp)
+add_executable(osg_movie main.cpp)
 
-target_include_directories(viewer_osg PRIVATE
+target_include_directories(osg_movie PRIVATE
         ${OPENSCENEGRAPH_INCLUDE_DIRS}
 )
 
-target_link_libraries(viewer_osg PRIVATE
+target_link_libraries(osg_movie PRIVATE
         ${OPENSCENEGRAPH_LIBRARIES}
         stdc++
 )
