@@ -56,7 +56,7 @@ int main(int argc, char *argv[]) {
     gst_rtsp_media_factory_set_enable_rtcp(factory, !disable_rtcp);
 
     /* attach the test factory to the /test url */
-    gst_rtsp_mount_points_add_factory(mounts, "/test", factory);
+    gst_rtsp_mount_points_add_factory(mounts, "/test.rtsp", factory);
 
     /* don't need the ref to the mapper anymore */
     g_object_unref(mounts);
@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
     gst_rtsp_server_attach(server, nullptr);
 
     /* start serving */
-    g_print("stream ready at rtsp://127.0.0.1:%s/test\n", port);
+    g_print("stream ready at rtsp://127.0.0.1:%s/test.rtsp\n", port);
     g_main_loop_run(loop);
 
     return 0;
